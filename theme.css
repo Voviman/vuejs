@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(135, 114, 226);
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    margin-top: 30%;
+}
+
+.btn {
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: rgb(41, 167, 97);
+}
+
+.danger {
+    background-color: rgb(185, 20, 20);
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todoist {
+    margin-top: 100px;
+}
+
+input {
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+hr {
+    color: #eaea;
+    background-color: #eaeaea;
+    margin-top: 100px;
+}
+
+.list-item {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
